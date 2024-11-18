@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "wrangler:deploy": "npm run build && npx wrangler pages deploy build --project-name dify-wiki"
   },
   "dependencies": {
     "@docusaurus/core": "3.6.1",
